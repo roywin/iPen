@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B017A8DA1478282F00E00D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017A8D91478282F00E00D34 /* UIKit.framework */; };
+		B017A8DC1478282F00E00D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017A8DB1478282F00E00D34 /* Foundation.framework */; };
+		B017A8DE1478282F00E00D34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017A8DD1478282F00E00D34 /* CoreGraphics.framework */; };
+		B017A8E41478282F00E00D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B017A8E21478282F00E00D34 /* InfoPlist.strings */; };
+		B017A8E61478282F00E00D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B017A8E51478282F00E00D34 /* main.m */; };
+		B017A8EA1478282F00E00D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B017A8E91478282F00E00D34 /* AppDelegate.m */; };
+		B017A8ED1478282F00E00D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B017A8EC1478282F00E00D34 /* ViewController.m */; };
+		B017A8F01478282F00E00D34 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B017A8EE1478282F00E00D34 /* ViewController_iPhone.xib */; };
+		B017A8F31478282F00E00D34 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B017A8F11478282F00E00D34 /* ViewController_iPad.xib */; };
+		B017A8FA147828AA00E00D34 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017A8F9147828AA00E00D34 /* ExternalAccessory.framework */; };
+		B0208DE2147CD2C9002EB0EB /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = B0208DE1147CD2C9002EB0EB /* Pen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B017A8D51478282F00E00D34 /* iPen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B017A8D91478282F00E00D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B017A8DB1478282F00E00D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B017A8DD1478282F00E00D34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B017A8E11478282F00E00D34 /* iPen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPen-Info.plist"; sourceTree = "<group>"; };
+		B017A8E31478282F00E00D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B017A8E51478282F00E00D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B017A8E71478282F00E00D34 /* iPen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPen-Prefix.pch"; sourceTree = "<group>"; };
+		B017A8E81478282F00E00D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B017A8E91478282F00E00D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B017A8EB1478282F00E00D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B017A8EC1478282F00E00D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B017A8EF1478282F00E00D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B017A8F21478282F00E00D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B017A8F9147828AA00E00D34 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B0208DE0147CD2C9002EB0EB /* Pen.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Pen.h; sourceTree = "<group>"; };
+		B0208DE1147CD2C9002EB0EB /* Pen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B017A8D21478282F00E00D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B017A8FA147828AA00E00D34 /* ExternalAccessory.framework in Frameworks */,
+				B017A8DA1478282F00E00D34 /* UIKit.framework in Frameworks */,
+				B017A8DC1478282F00E00D34 /* Foundation.framework in Frameworks */,
+				B017A8DE1478282F00E00D34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B017A8CA1478282E00E00D34 = {
+			isa = PBXGroup;
+			children = (
+				B017A8DF1478282F00E00D34 /* iPen */,
+				B017A8D81478282F00E00D34 /* Frameworks */,
+				B017A8D61478282F00E00D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B017A8D61478282F00E00D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B017A8D51478282F00E00D34 /* iPen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B017A8D81478282F00E00D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B017A8F9147828AA00E00D34 /* ExternalAccessory.framework */,
+				B017A8D91478282F00E00D34 /* UIKit.framework */,
+				B017A8DB1478282F00E00D34 /* Foundation.framework */,
+				B017A8DD1478282F00E00D34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B017A8DF1478282F00E00D34 /* iPen */ = {
+			isa = PBXGroup;
+			children = (
+				B017A8E81478282F00E00D34 /* AppDelegate.h */,
+				B017A8E91478282F00E00D34 /* AppDelegate.m */,
+				B017A8EB1478282F00E00D34 /* ViewController.h */,
+				B017A8EC1478282F00E00D34 /* ViewController.m */,
+				B017A8EE1478282F00E00D34 /* ViewController_iPhone.xib */,
+				B017A8F11478282F00E00D34 /* ViewController_iPad.xib */,
+				B0208DE0147CD2C9002EB0EB /* Pen.h */,
+				B0208DE1147CD2C9002EB0EB /* Pen.m */,
+				B017A8E01478282F00E00D34 /* Supporting Files */,
+			);
+			path = iPen;
+			sourceTree = "<group>";
+		};
+		B017A8E01478282F00E00D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B017A8E11478282F00E00D34 /* iPen-Info.plist */,
+				B017A8E21478282F00E00D34 /* InfoPlist.strings */,
+				B017A8E51478282F00E00D34 /* main.m */,
+				B017A8E71478282F00E00D34 /* iPen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B017A8D41478282F00E00D34 /* iPen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B017A8F61478282F00E00D34 /* Build configuration list for PBXNativeTarget "iPen" */;
+			buildPhases = (
+				B017A8D11478282F00E00D34 /* Sources */,
+				B017A8D21478282F00E00D34 /* Frameworks */,
+				B017A8D31478282F00E00D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPen;
+			productName = iPen;
+			productReference = B017A8D51478282F00E00D34 /* iPen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B017A8CC1478282F00E00D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = PTGDI;
+			};
+			buildConfigurationList = B017A8CF1478282F00E00D34 /* Build configuration list for PBXProject "iPen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B017A8CA1478282E00E00D34;
+			productRefGroup = B017A8D61478282F00E00D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B017A8D41478282F00E00D34 /* iPen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B017A8D31478282F00E00D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B017A8E41478282F00E00D34 /* InfoPlist.strings in Resources */,
+				B017A8F01478282F00E00D34 /* ViewController_iPhone.xib in Resources */,
+				B017A8F31478282F00E00D34 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B017A8D11478282F00E00D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B017A8E61478282F00E00D34 /* main.m in Sources */,
+				B017A8EA1478282F00E00D34 /* AppDelegate.m in Sources */,
+				B017A8ED1478282F00E00D34 /* ViewController.m in Sources */,
+				B0208DE2147CD2C9002EB0EB /* Pen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B017A8E21478282F00E00D34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B017A8E31478282F00E00D34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B017A8EE1478282F00E00D34 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B017A8EF1478282F00E00D34 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B017A8F11478282F00E00D34 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B017A8F21478282F00E00D34 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B017A8F41478282F00E00D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B017A8F51478282F00E00D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B017A8F71478282F00E00D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPen/iPen-Prefix.pch";
+				INFOPLIST_FILE = "iPen/iPen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B017A8F81478282F00E00D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPen/iPen-Prefix.pch";
+				INFOPLIST_FILE = "iPen/iPen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B017A8CF1478282F00E00D34 /* Build configuration list for PBXProject "iPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B017A8F41478282F00E00D34 /* Debug */,
+				B017A8F51478282F00E00D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B017A8F61478282F00E00D34 /* Build configuration list for PBXNativeTarget "iPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B017A8F71478282F00E00D34 /* Debug */,
+				B017A8F81478282F00E00D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B017A8CC1478282F00E00D34 /* Project object */;
+}
