@@ -10,7 +10,7 @@
 #include <sys/types.h>  
 #include <sys/sysctl.h> 
 
-#define PROTOCOL_STRING @"com.yifangdigital.myprotocol"
+#define PROTOCOL_STRING @"com.cregleipen.myProtocol"
 
 @implementation Pen
 
@@ -204,11 +204,11 @@
     
     if (_isLefHanded) {
         resultX += 20.0f;
-        resultY -= 10.0f;
+        resultY -= 15.0f;
     }
     else {
         resultX -= 20.0f;
-        resultY -= 10.0f;
+        resultY -= 15.0f;
     }
     
     return CGPointMake(resultX, resultY);
