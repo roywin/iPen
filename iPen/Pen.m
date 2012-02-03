@@ -156,23 +156,23 @@
     CGFloat resultY, tempResultY;
     
     if ([self isPlatform:@"iPad"]) {
-        lengthFactor = 9.31543f;
-        offsetX = 3577;
-        offsetY = -1161;
+        lengthFactor = 9.375f;
+        offsetX = 3650;
+        offsetY = -1150;
         deviceWidth = 768;
         deviceHeight = 1024;
     }
     else if ([self isPlatform:@"iPhone"]) {
-        lengthFactor = 7.525f;
-        offsetX = 1206;
-        offsetY = -1013;
+        lengthFactor = 7.65625f;
+        offsetX = 1250;
+        offsetY = -1075;
         deviceWidth = 320;
         deviceHeight = 480;
     }
     else if ([self isPlatform:@"iPod"]) {
-        lengthFactor = 7.525f;
-        offsetX = 1206;
-        offsetY = -938;
+        lengthFactor = 7.3958333333;
+        offsetX = 1225;
+        offsetY = -950;
         deviceWidth = 320;
         deviceHeight = 480;
     }
@@ -204,11 +204,11 @@
     
     if (_isLefHanded) {
         resultX += 20.0f;
-        resultY -= 15.0f;
+        resultY -= 10.0f;
     }
     else {
         resultX -= 20.0f;
-        resultY -= 15.0f;
+        resultY -= 10.0f;
     }
     
     return CGPointMake(resultX, resultY);
